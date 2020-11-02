@@ -1,0 +1,11 @@
+<mat-button-toggle-group #group="matButtonToggleGroup" [value]='value' (valueChange)='updateValue(group.value)'>
+    <mat-button-toggle value="ua" [matTooltip]="'TRANSLATE.SELECT.UA' | translate">
+      <mat-icon svgIcon="ua"></mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="ru" [matTooltip]="'TRANSLATE.SELECT.RU' | translate">
+      <mat-icon svgIcon="ru"></mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle value="en" [matTooltip]="'TRANSLATE.SELECT.EN' | translate">
+      <mat-icon svgIcon="us"></mat-icon>
+    </mat-button-toggle>
+</mat-button-toggle-group>

@@ -1,0 +1,19 @@
+{
+    "TRANSLATE": {
+        "SELECT": {
+            "EN": "Select english language",
+            "UA": "Select ukrainian language",
+            "RU": "Select russian language"
+        }
+    },
+    "AUTH": {
+        "LOGIN": "Login",
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "LOG_IN": "Log in",
+        "ERROR": {
+            "USERNAME": "Username field is required and must be at least 4 characters",
+            "PASSWORD": "Password field is required and must be at least 4 characters"
+        }
+    }
+}
